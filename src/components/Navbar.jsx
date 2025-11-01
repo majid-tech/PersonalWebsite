@@ -13,7 +13,7 @@ export default function Navbar() {
                     <div className="flex items-center space-x-2 group cursor-pointer">
                         <div>
                             <img 
-                                src="/src/assets/images/profile.jpg" 
+                                src="/images/profile.jpg" 
                                 alt="MajidMohammed" 
                                 className="w-6 h-6 sm:w-8 sm:h-8 rounded-2xl" /> 
                         </div>

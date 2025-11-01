@@ -60,7 +60,7 @@ export default function Projects() {
           className="bg-[#1a1c28] p-5 rounded-xl border border-slate-800 hover:border-blue-400 hover:shadow-blue-400/40 hover:shadow-lg transition-all duration-300"
         >
           <img
-            src="/src/assets/images/366shots_so.png"
+            src="/images/366shots_so.png"
             alt="Portfolio Website"
             className="rounded-md mb-4 h-40 w-full object-cover"
           />
@@ -93,7 +93,7 @@ export default function Projects() {
           className="bg-[#1a1c28] p-5 rounded-xl border border-slate-800 hover:border-blue-400 hover:shadow-blue-400/40 hover:shadow-lg transition-all duration-300"
         >
           <img
-            src="/src/assets/images/937shots_so.png"
+            src="/images/937shots_so.png"
             alt="E-Commerce Platform"
             className="rounded-md mb-4 h-40 w-full object-cover"
           />
@@ -126,7 +126,7 @@ export default function Projects() {
           className="bg-[#1a1c28] p-5 rounded-xl border border-slate-800 hover:border-blue-400 hover:shadow-blue-400/40 hover:shadow-lg transition-all duration-300"
         >
           <img
-            src="/src/assets/images/350shots_so.png"
+            src="/images/350shots_so.png"
             alt="Weather App"
             className="rounded-md mb-4 h-40 w-full object-cover"
           />
@@ -159,7 +159,7 @@ export default function Projects() {
           className="bg-[#1a1c28] p-5 rounded-xl border border-slate-800 hover:border-blue-400 hover:shadow-blue-400/40 hover:shadow-lg transition-all duration-300"
         >
           <img
-            src="/src/assets/images/415shots_so.png"
+            src="/images/415shots_so.png"
             alt="Weather App"
             className="rounded-md mb-4 h-40 w-full object-cover"
           />
