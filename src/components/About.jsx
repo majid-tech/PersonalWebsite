@@ -47,7 +47,7 @@ export default function About() {
                 <li>HTML5</li>
                 <li>CSS3 / Tailwind</li>
                 <li>JavaScript</li>
-                <li>React</li>
+                <li>React / Framer-Motion</li>
               </ul>
             </div>
 
@@ -68,6 +68,7 @@ export default function About() {
               <ul className="space-y-2 text-slate-200">
                 <li>Git & GitHub</li>
                 <li>VS Code</li>
+                <li>Google Cloud Services</li>
               </ul>
             </div>
           </div>

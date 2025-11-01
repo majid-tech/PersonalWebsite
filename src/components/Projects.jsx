@@ -7,7 +7,7 @@ export default function Projects() {
     show: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.25,
+        staggerChildren: 0.4,
       },
     },
   };
@@ -19,14 +19,14 @@ export default function Projects() {
 
   return (
     <section
-      id="projects"
+      id="project"
       className="flex flex-col items-center text-center gap-10 pt-24 pb-16 px-6 sm:px-10 lg:px-24 bg-[#0f111a]"
     >
       {/* Section Heading */}
       <motion.h2
         initial={{ opacity: 0, y: -30 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
+        transition={{ duration: 0.8 }}
         viewport={{ once: true }}
         className="text-3xl sm:text-4xl font-bold text-slate-200"
       >
@@ -37,7 +37,7 @@ export default function Projects() {
       <motion.p
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ delay: 0.2, duration: 0.8 }}
+        transition={{ delay: 0.3, duration: 0.8 }}
         viewport={{ once: true }}
         className="text-slate-400 max-w-2xl text-[16px] sm:text-[18px] leading-relaxed"
       >
