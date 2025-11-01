@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { Linkedin, Github, MessageCircle } from "lucide-react";
 
@@ -40,7 +41,7 @@ export default function Contact() {
       >
         {/* LinkedIn */}
         <a
-          href="www.linkedin.com/in/majid-mohammed044"
+          href="https://www.linkedin.com/in/majid-mohammed044"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 px-6 py-3 rounded-lg bg-blue-600 text-white font-medium shadow-md shadow-blue-800 hover:shadow-blue-400 hover:scale-105 transition-all duration-300"
