@@ -7,7 +7,7 @@ export default function Hero(){
       <h1 class="text-4xl text-center md:text-5xl font-bold mb-4 text-slate-200">
         Hi, I’m <span class="text-blue-400">Majid Mohammed</span>
       </h1>
-      <div class="w-48 h-48 mb-3 rounded-full shadow-blue-400 shadow-2xl animate-pulse"><img src="src/assets/images/profile.jpg" class="rounded-full" alt=""></img></div>
+      <div class="w-48 h-48 mb-3 rounded-full shadow-blue-400 shadow-2xl animate-pulse"><img src="/images/profile.jpg" class="rounded-full" alt=""></img></div>
       <p class="text-center text-slate-200 max-w-2xl mx-auto text-[18px]">
         <span class="text-blue-400">Full-Stack Developer, </span>
         I design and build modern, responsive, and user-friendly web applications that solve real-world problems.
