@@ -59,7 +59,7 @@ export default function Projects() {
           className="bg-[#1a1c28] p-5 rounded-xl border border-slate-800 hover:border-blue-400 hover:shadow-blue-400/40 hover:shadow-lg transition-all duration-300"
         >
           <img
-            src="assets/images/project1.jpg"
+            src="/src/assets/images/366shots_so.png"
             alt="Portfolio Website"
             className="rounded-md mb-4 h-40 w-full object-cover"
           />
@@ -72,6 +72,7 @@ export default function Projects() {
           <div className="flex flex-col gap-3 justify-center mt-4 text-sm w-full">
             <a
               href="#"
+              target="_blank"
               className="px-4 py-2 bg-blue-600 rounded-lg hover:bg-blue-500 transition"
             >
               Live
@@ -91,7 +92,7 @@ export default function Projects() {
           className="bg-[#1a1c28] p-5 rounded-xl border border-slate-800 hover:border-blue-400 hover:shadow-blue-400/40 hover:shadow-lg transition-all duration-300"
         >
           <img
-            src="assets/images/project2.jpg"
+            src="/src/assets/images/937shots_so.png"
             alt="E-Commerce Platform"
             className="rounded-md mb-4 h-40 w-full object-cover"
           />
@@ -103,13 +104,14 @@ export default function Projects() {
           </p>
           <div className="flex flex-col gap-3 justify-center mt-4 text-sm w-full">
             <a
-              href="#"
+              href="https://majid-tech.github.io/E-Commerce/"
+              target="_blank"
               className="px-4 py-2 bg-blue-600 rounded-lg hover:bg-blue-500 transition"
             >
               Live
             </a>
             <a
-              href="#"
+              href="https://github.com/majid-tech/E-Commerce"
               className="px-4 py-2 border border-blue-600 text-blue-400 rounded-lg hover:bg-blue-600 hover:text-white transition"
             >
               Code
@@ -123,25 +125,60 @@ export default function Projects() {
           className="bg-[#1a1c28] p-5 rounded-xl border border-slate-800 hover:border-blue-400 hover:shadow-blue-400/40 hover:shadow-lg transition-all duration-300"
         >
           <img
-            src="assets/images/project3.jpg"
-            alt="Waste Management App"
+            src="/src/assets/images/350shots_so.png"
+            alt="Weather App"
             className="rounded-md mb-4 h-40 w-full object-cover"
           />
           <h3 className="text-xl font-semibold text-blue-400">
-            Waste Management App
+            Weather App
           </h3>
           <p className="text-slate-400 text-sm mt-2">
-            A Flutter prototype improving community waste pickup scheduling.
+            A simple weather application that allows users to view current weather of a city.
           </p>
           <div className="flex flex-col gap-3 justify-center mt-4 text-sm w-full">
             <a
-              href="#"
+              href="https://majid-tech.github.io/weatherApp/"
+              target="_blank"
               className="px-4 py-2 bg-blue-600 rounded-lg hover:bg-blue-500 transition"
             >
               Live
             </a>
             <a
-              href="#"
+              href="https://github.com/majid-tech/weatherApp"
+              target="_blank"
+              className="px-4 py-2 border border-blue-600 text-blue-400 rounded-lg hover:bg-blue-600 hover:text-white transition"
+            >
+              Code
+            </a>
+          </div>
+        </motion.div>
+
+        <motion.div
+          variants={itemVariants}
+          className="bg-[#1a1c28] p-5 rounded-xl border border-slate-800 hover:border-blue-400 hover:shadow-blue-400/40 hover:shadow-lg transition-all duration-300"
+        >
+          <img
+            src="/src/assets/images/415shots_so.png"
+            alt="Weather App"
+            className="rounded-md mb-4 h-40 w-full object-cover"
+          />
+          <h3 className="text-xl font-semibold text-blue-400">
+            Restaurant Page
+          </h3>
+          <p className="text-slate-400 text-sm mt-2">
+           The "RestaurantPage" project is a web application that showcases a restaurant's website.
+          </p>
+          <div className="flex flex-col gap-3 justify-center mt-4 text-sm w-full">
+            <a
+              href="https://majid-tech.github.io/RestaurantPage/"
+              target="_blank"
+              className="px-4 py-2 bg-blue-600 rounded-lg hover:bg-blue-500 transition"
+            >
+              Live
+            </a>
+            <a
+              href="https://github.com/majid-tech/RestaurantPage"
+              target="_blank"
               className="px-4 py-2 border border-blue-600 text-blue-400 rounded-lg hover:bg-blue-600 hover:text-white transition"
             >
               Code
