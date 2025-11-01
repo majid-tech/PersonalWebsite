@@ -19,8 +19,10 @@ export default function Navbar() {
                         </div>
 
                         <span className="text-lg sm:text-xl md:text-2xl font-medium">
-                            <span className="text-white">Majid</span>
+                            <a href="#hero">
+                        <span className="text-white">Majid</span>
                             <span className="text-blue-400">Mohammed</span>
+                            </a>
                         </span>
                     </div>
                     
@@ -61,7 +63,7 @@ export default function Navbar() {
                             About
                         </a>
                         <a 
-                        href="#projects" 
+                        href="#project" 
                         className="block text-gray-100 hover:text-blue-400 text-sm lg:text-base p-3 hover:bg-slate-950"
                         onClick={() => setmobileMenuIsOpen(false)}>
                             Projects
