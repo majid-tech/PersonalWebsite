@@ -56,7 +56,6 @@ export default function About() {
             <div className="bg-[#1a1c28] p-6 rounded-xl border border-slate-800 hover:border-blue-400 hover:shadow-blue-400/50 hover:shadow-lg transition-all duration-300">
               <h4 className="text-lg font-semibold text-blue-400 mb-3">Backend</h4>
               <ul className="space-y-2 text-slate-200">
-                <li>Node.js</li>
                 <li>Python / Django</li>
                 <li>MongoDB</li>
                 <li>MySQL</li>

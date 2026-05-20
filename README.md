@@ -1,16 +1,81 @@
-# React + Vite
+# Personal Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern personal portfolio website built with React, Vite, Tailwind CSS, and Framer Motion. This project showcases a responsive landing page with sections for About, Projects, and Contact.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This website is designed as a developer portfolio for Majid Mohammed. It includes:
 
-## React Compiler
+- A hero section with a personal introduction and call-to-action buttons
+- A responsive navigation bar with mobile menu support
+- An About section with skills and technology highlights
+- A Projects section featuring live demos and source code links
+- A Contact section with social links for LinkedIn, GitHub, and WhatsApp
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React 19
+- Vite
+- Tailwind CSS
+- Framer Motion
+- Lucide React icons
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Fully responsive layout for desktop and mobile
+- Smooth animated section reveals using Framer Motion
+- Dark theme styling with polished UI interactions
+- Project cards with external links to live sites and repositories
+- Mobile menu toggle with accessible navigation
+
+## Getting Started
+
+### Requirements
+
+- Node.js v18 or newer
+- npm or yarn
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run locally
+
+```bash
+npm run dev
+```
+
+Open the local development URL shown in the terminal to preview the website.
+
+### Build for production
+
+```bash
+npm run build
+```
+
+### Preview production build
+
+```bash
+npm run preview
+```
+
+## Project Structure
+
+- `src/App.jsx` — main application layout
+- `src/components/Navbar.jsx` — responsive navigation bar
+- `src/components/Hero.jsx` — hero section and introduction
+- `src/components/About.jsx` — about section with skills listing
+- `src/components/Projects.jsx` — featured projects grid
+- `src/components/Contact.jsx` — contact section with social links
+- `index.html` — app shell
+- `vite.config.js` — Vite configuration
+
+## Notes
+
+Images are stored in `public/images` and referenced from the site. You can update content, links, and project cards to match your latest portfolio work.
+
+## License
+
+This repository is private and intended for personal use.
